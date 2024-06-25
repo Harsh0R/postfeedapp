@@ -1,0 +1,286 @@
+.App {
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  overflow: scroll;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px 0 30px;
+  color: white;
+  position: relative;
+}
+
+.authed-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.header-container {
+  
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 25px;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.connect-wallet-button {
+  color: white;
+  background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-left: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connected-container input[type='text'] {
+  display: inline-block;
+  padding: 10px;
+  width: 50%;
+  height: 60px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+.connected-container button {
+  height: 50px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+  color: white
+}
+
+.inputStyles {
+  margin: 0px 3px 10px 1px;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 0px;
+  outline: none;
+  color: white;
+  resize: none;
+  outline: none;
+  width: 100%;
+}
+
+.hastagInputStyles {
+  margin: 0px 3px 10px 1px;
+  background-color: rgb(62, 62, 62);
+  border-radius: 10px;
+  padding: 5px 10px;
+  outline: none;
+  color: white;
+  resize: none;
+  outline: none;
+}
+
+.secondaryInputBoxStyles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 0px;
+}
+
+.buttonStyle {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(29, 155, 240);
+}
+
+.loadbuttonStyle {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: white;
+  margin: 10px;
+  background-color: grey;
+  background-color: rgb(62, 62, 62);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scrollStyle {
+  overflow-y: scroll;
+  max-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.bodyStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.borderStyle {
+  border: 1px solid grey;
+  padding: 10px
+}
+
+.inputStyle {
+  display: flex;
+  justify-content: space-around
+}
+
+.connectWalletStyle {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

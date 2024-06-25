@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+postfeedapp = "8CndcK7U9koWCUbiY9q8UkFVDkCQiGXbC99pR2jwXgUF"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "/mnt/c/Users/MASTER/Desktop/projects/solana/postfeedapp/id.json+"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
